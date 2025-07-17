@@ -9,15 +9,16 @@ This will save zip folder with files in .mbox forrmat, which you need to give as
 
 Example:
 
-PS C:\Users\sanjith\Downloads> & C:/Users/sanjith/AppData/Local/Programs/Python/Python313/python.exe "c:/Users/sanjith/Documents/Python_project/find_top_sender.py"
-Please provide the mbox filename: CategoryUpdates.mbox
-notification@edm.efincare.com: 3486
-newsletters@shopatbest.com: 1480
-info@pbmailer.com: 958
-info@edm.efincare.com: 817
-newsletters@educationation.pro: 796
-info@holidayiq.com: 756
-noreply@rerule.com: 710
-newsletters@door2inbox.com: 697
-fashion@crm.jabong.com: 660
-deepika@harvestn.info: 644
+PS C:\Users\sanjith\Downloads> & C:/Users/sanjith/AppData/Local/Programs/Python/Python313/python.exe "c:/Users/sanjith/Documents/Python_project/find_top_sender.py"  
+Please provide the mbox filename: CategoryUpdates.mbox  
+notification@edm.efincare.com: 3486  
+newsletters@shopatbest.com: 1480  
+info@pbmailer.com: 958  
+info@edm.efincare.com: 817  
+newsletters@educationation.pro: 796  
+info@holidayiq.com: 756  
+noreply@rerule.com: 710  
+newsletters@door2inbox.com: 697  
+fashion@crm.jabong.com: 660  
+deepika@harvestn.info: 644  
+PS C:\Users\sanjith\Downloads>
