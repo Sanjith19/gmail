@@ -2,6 +2,9 @@ import mailbox
 from collections import Counter
 from email.header import decode_header
 from email.utils import parseaddr
+import argparse
+
+filename = input('Please provide the mbox filename: ')
 
 def decode_sender(header):
     if not header:
@@ -19,7 +22,7 @@ def decode_sender(header):
     return parseaddr(decoded_str)[1]  # extract just the email
 
 # Load MBOX
-mbox = mailbox.mbox('CategoryUpdates.mbox')
+mbox = mailbox.mbox(filename)
 
 senders = Counter()
 
